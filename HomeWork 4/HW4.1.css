@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+}
+.box-section-1{
+    background-image: url("image 4.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.box1{
+    background-image: url("image 3.png");
+    height: 393px;
+    width: 529px;
+}
+.box2{
+    background: #FAF9F7;
+    height: 393px;
+    width: 529px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 45px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.text1{
+    color: #000;
+
+    font-family: "KoHo", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text2{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text3{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button1{
+    width: 409px;
+    height: 76px;
+    position: relative;
+    left: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.button1:hover{
+    cursor: pointer;
+}
+.box-section-2{
+    background-image: url("Rectangle 4.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.text4{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box4{
+    width: 949px;
+    height: 183px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.box5{
+    width: 949px;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-section-3{
+    background-image: url("Rectangle 4.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box6{
+    background: rgba(83, 83, 83, 0.40);
+    height: 68vh;
+    width: 30vw;
+}
+.box7{
+    background: rgba(83, 83, 83, 0.40);
+    height: 68vh;
+    width: 30vw;
+}
+.box8{
+    background: rgba(83, 83, 83, 0.40);
+    height: 68vh;
+    width: 30vw;
+}
